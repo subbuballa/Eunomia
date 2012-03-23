@@ -34,6 +34,7 @@ namespace de.ahzf.Eunomia
 
         public static String Id             = "Id";
         public static String RevId          = "RevId";
+        public static String Label          = "Label";
         public static String Description    = "Description";
 
     }
