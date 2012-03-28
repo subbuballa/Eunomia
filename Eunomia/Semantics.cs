@@ -30,12 +30,56 @@ namespace de.ahzf.Eunomia
     public static class Semantics
     {
 
-        public static String GraphDBPrefix  = "http://graph-database.org/graphdb/0.1";
 
-        public static String Id             = "Id";
-        public static String RevId          = "RevId";
-        public static String Label          = "Label";
-        public static String Description    = "Description";
+        /// <summary>
+        /// The well-known prefix of the graph-database ontology.
+        /// </summary>
+        public static String GraphDBPrefix          = "http://graph-database.org/graphdb/0.1";
+
+
+
+        /// <summary>
+        /// The identification of any graph element.
+        /// </summary>
+        public static String Id                     = "Id";
+
+        /// <summary>
+        /// The revision identification of any graph element.
+        /// </summary>
+        public static String RevId                  = "RevId";
+
+        /// <summary>
+        /// The label of any graph element.
+        /// </summary>
+        public static String Label                  = "Label";
+
+        /// <summary>
+        /// The description of any graph element.
+        /// </summary>
+        public static String Description            = "Description";
+
+
+
+        /// <summary>
+        /// The default vertex label.
+        /// </summary>
+        public static String DefaultVertexLabel     = "default";
+
+        /// <summary>
+        /// The default edge label.
+        /// </summary>
+        public static String DefaultEdgeLabel       = "default";
+
+        /// <summary>
+        /// The default hyperedge label.
+        /// </summary>
+        public static String DefaultHyperEdgeLabel  = "default";
+
+        /// <summary>
+        /// The default multiedge label.
+        /// </summary>
+        public static String DefaultMultiEdgeLabel  = "default";
+
 
     }
 
