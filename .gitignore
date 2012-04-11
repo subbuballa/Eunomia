@@ -3,5 +3,9 @@
 *.suo
 *.csproj.user
 *.vsp
-/Eunomia/bin
-/Eunomia/obj
+*.app.ctl
+*.krn.ctl
+*.psess
+*/TestResult.xml
+*/obj
+*/bin
