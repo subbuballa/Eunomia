@@ -21,7 +21,7 @@ using System;
 
 #endregion
 
-namespace de.ahzf.Eunomia
+namespace de.ahzf.Vanaheimr.Eunomia
 {
 
     /// <summary>
